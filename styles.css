@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main{
+    display: flex;
+    border: 1px solid black;
+    background-color: #F6CFA4;
+    justify-content: space-evenly;
+}
+
+.left{
+    /* border: 1px solid black; */
+    margin-left: 40px;
+}
+
+#heading1{
+    font-size: 35px;
+    margin-top: 70px;
+    font-weight: 800;
+}
+#text{
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 450;
+}
+#heading2{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.buttons button{
+    cursor: pointer;
+}
+
+#btn2{
+    margin-left: 10px;
+    background-color: black;
+    color: white
+    ;
+}
+.buttons button{
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    width: 250px;
+    border: 5px solid black;
+    font-size: large;
+    font-weight: bold   ;
+    
+}
+
+.buttons button:hover{
+    background-color: transparent 0;
+    
+}
+.right{
+    /* border: 1px solid blue; */
+    margin-left: 150px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fleft{
+    margin-top: 20px;
+}
+.fleft li{
+    list-style: none;
+    margin-left: -500px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.fright{
+    margin-right: -400px;
+    margin-top: 20px;
+}
+.fright li{
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
